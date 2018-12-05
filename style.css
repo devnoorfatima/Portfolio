@@ -1,6 +1,8 @@
+/* styles of body */
 body{
   font-family: Poppins;
 }
+/* styles of nav-bar */
 .navbar-brand{
   font-family: Archivo Black;
   font-size: 30px;
@@ -66,34 +68,10 @@ body{
     text-transform: uppercase;
     padding-top: 15%;
   }
+  /* styles for two columns */
 .shape{
   border-radius: 50%;
   height: 300px;
-}
-.image{
-  background-image: url(./bg3.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.size{
-  height: 90%;
-  width: 80%;
-  padding: 5px;
-  border: 3px solid rgb(78, 75, 75);
-  border-radius: 10px;
-}
-
-.size2{
-  height: 90%;
-  width:80%;
-  border: 3px solid rgb(78, 75, 75);
-  border-radius: 10px;
-  padding: 5px;
-}
-.font{
-  text-transform: uppercase;
-  text-shadow:4px 2px gray; 
 }
 .background{
   background-image: url(./bg-flower.jpg);
@@ -101,35 +79,60 @@ body{
   background-size: cover;
   background-attachment: fixed;
 }
+.image{
+  background-image: url(./bg3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Styles for portfolio */
+.size{
+  height: 90%;
+  width: 80%;
+  padding: 5px;
+  border: 3px solid rgb(78, 75, 75);
+  border-radius: 10px;
+}
+.size2{
+  height: 90%;
+  width:80%;
+  border: 3px solid rgb(78, 75, 75);
+  border-radius: 10px;
+  padding:5px;
+}
+.font{
+  text-transform: uppercase;
+  text-shadow:4px 2px rgb(90, 86, 86); 
+}
+
 /* contact */
 .social a {
   display: inline;
   margin: 3%;
   font-size: 4.5em;
 }
-.fa-facebook{
-  color: #3b5998;
+.fa-github{
+  color: black;
 }
 .fa-twitter{
   color: #00aced;
 }
-.fa-instagram{
-  color: #517fa8;
+.fa-codepen{
+  color:black;
 }
 .fa-youtube{
   color: #bb0000;
 }
-.fa-facebook:hover, .fa-instagram:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-youtube:hover{
-color: #d5d5d5;
-}
 .padding{
-  margin-top: 20%;
-  background-image: url();
+  margin-top: 10%;
 }
 .background-cover{
-  background-image: url(./contact-img.jpeg);
+  background-image: url(./contact-img..jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: rgb(52, 165, 165);
+  color: black;
+}
+.shadow-text{
+  text-shadow: 5px 2px gray;
 }
