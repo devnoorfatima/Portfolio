@@ -86,21 +86,53 @@ body{
   background-attachment: fixed;
 }
 /* Styles for portfolio */
+.container {
+  position: relative;
+  width: 80%;
+  height: 90%;
+}
 
-.size{
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.container:hover .image {
+opacity: 0.2;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
+
+.text {
+background-color: transparent;
+color: black;
+font-size: 20px;
+padding: 16px 32px;
+}
+
+.size, .size2{
   height: 90%;
   width: 80%;
   padding: 5px;
   border: 3px solid rgb(78, 75, 75);
   border-radius: 10px;
-
-}
-.size2{
-  height: 90%;
-  width:80%;
-  border: 3px solid rgb(78, 75, 75);
-  border-radius: 10px;
-  padding:5px;
 }
 .font{
   text-transform: uppercase;
