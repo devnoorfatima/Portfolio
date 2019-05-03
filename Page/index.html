@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Demo web page</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    font-family: Poppins;
+}
+.nav{
+    background-color: #4F4D53;
+    height: 48px;
+    color: black;
+}
+h3{
+    margin-left: 5rem;
+}
+.logo{
+    height: 40px;
+    padding-top: 15px;
+    margin-left: 2rem;
+}
+.hero{
+    background-image: url(./img_hero.jpg);
+    height: 370px;
+    color: rgb(121, 115, 115);
+    font-size: 25px;
+ 
+}
+h1{
+    padding-top: 5rem;
+    font-size: 50px;
+}
+img{
+    padding-top: 8rem;
+    margin: 5px;
+}
+.color{
+    font-size: 30px;
+    color:  #E8BE02;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+    color: #4F4D53;
+}
+.info{
+    margin-top: 10rem;
+}
+.footer{
+    border-top:5px solid #E8BE02 ;
+    background-color: #4F4D53;
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 676px) {
+  img{
+    margin: 0;
+    padding-top: 0;
+  }
+  }
+
+  @media only screen and (max-width: 410px) {
+    img{
+      margin: 0;
+      padding-top: 0;
+    }
+    .info{
+        margin-top: 30rem;
+    }
+    }
+
+
+</style>
+
+</head>
+
+<body>
+    <div class="nav">
+        <img class="logo" src="./gtd_logo.png" alt="logo">
+    </div>
+    <div class="hero text-center">
+        <h1>Hello we're gtd.</h1>
+        <div>
+            <img src="./img_lisa_circle.png" alt="lisa image">
+            <img src="./img_danielle_circle.png" alt="danielle image">
+            <img src="./img_brian_circle.png" alt="brian image">
+        </div>
+    </div>
+    <div class="info text-center">
+        <h3 class="color">How it Started</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and </p>
+        <p> industry. Lorem Ipsum has been the industry's standard dummy text</p>
+        <p> ever since the 1500s, remaining essentially unchanged.</p>
+    </div>
+    <div class="footer">
+        <div class="row mt-5 p-0 m-0">
+            <div class="col-sm-3 text-center">
+                <h4 class="color">Team</h4>
+                <p class="text-white">lorem</p>
+                <p class="text-white">ipsum</p>
+                <p class="text-white">dollar</p>
+            </div>
+
+            <div class="col-sm-3 text-center">
+                <h4 class="color">Learn More</h4>
+                <p class="text-white">lorem</p>
+                <p class="text-white">ipsum</p>
+                <p class="text-white">dollar</p>
+            </div>
+
+            <div class="col-sm-3 text-center">
+                <h4 class="color">Meet Us</h4>
+                <p class="text-white">lorem</p>
+                <p class="text-white">ipsum</p>
+                <p class="text-white">dollar</p>
+            </div>
+
+
+            <div class="col-sm-3 text-center">
+                <h4 class="color">Contact</h4>
+                <p class="text-white">lorem</p>
+                <p class="text-white">ipsum</p>
+                <p class="text-white">dollar</p>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- 
+    function solution(s) {
+        var c = s[0];
+        let regexp = /^[A-Z]/;
+        let regex=/^[a-z]/;
+        let regNum = /^[0-9]/;
+        if (regexp.test(s)) {  // please fix condition
+            return 'upper';
+        } else if (regex.test(s)) {  // please fix condition
+            return 'lower';
+        } else if (regNum.test(s)) {  // please fix condition
+            return 'digit';
+        } else {
+            return "other";
+        }
+    } -->
+</body>
+
+</html>
